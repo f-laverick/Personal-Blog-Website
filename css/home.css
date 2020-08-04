@@ -1,0 +1,39 @@
+/*
+	Home page styles
+*/
+.hero {
+	height: 100%;
+	background: url(file:///Users/freya/Documents/course-blog/images/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.para-box {
+	max-width: 300px;
+	max-height: 180px;
+	padding: 20px 20px;
+	font-size: 3rem;
+	color: #3c4b59;
+	/* 
+	Styles to center a block within a position relative parent block
+	*/ 
+	position: absolute;
+	align-items: center;
+	top: 0;
+	bottom: 150px;
+	left: 20px;
+	margin: auto;
+}
+
+.blogbut {
+  border: none;
+  background-color: #f9f6f6;
+  padding: 10px 24px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 2px 3px #c0b5b5;
+
+}

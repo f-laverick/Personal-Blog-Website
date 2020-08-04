@@ -1,0 +1,35 @@
+/*
+	Blog page layout
+*/
+.main-img {
+	height: 100%;
+	position: relative;
+	padding-top: 60px;
+}
+.main-img:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(file:///Users/freya/Documents/course-blog/images/blog-pic.jpg);
+	filter: blur(4px);
+	background-size: cover;
+	background-position: center;
+}
+.card-title {
+	font-size: 1.5rem;
+}
+.card-subtitle {
+	font-size: 1.2rem;
+}
+
+.avatars {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 0.1px;
+}
